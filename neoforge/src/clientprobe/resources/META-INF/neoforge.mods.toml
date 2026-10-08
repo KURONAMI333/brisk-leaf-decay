@@ -1,0 +1,15 @@
+# Dev-only client probe. Never shipped: neoforge/src/clientprobe is only on the runProbeClient classpath.
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "brisk_leaf_decay_clientprobe"
+version = "0.0.0"
+displayName = "Brisk Leaf Decay client probe (dev only)"
+description = '''Creates a world, chops a tree near the player and records what happened. Development only.'''
+[[dependencies.brisk_leaf_decay_clientprobe]]
+modId = "brisk_leaf_decay"
+type = "required"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "CLIENT"

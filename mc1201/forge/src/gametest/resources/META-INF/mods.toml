@@ -1,0 +1,18 @@
+# Dev-only companion mod holding the GameTests. Never shipped (forge/src/gametest is only on the
+# runGameTestServer classpath). Literal values only.
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "brisk_leaf_decay_gametest"
+version = "1"
+displayName = "brisk_leaf_decay GameTests (dev only)"
+description = "Development-only behavior tests."
+
+[[dependencies.brisk_leaf_decay_gametest]]
+modId = "brisk_leaf_decay"
+mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "SERVER"

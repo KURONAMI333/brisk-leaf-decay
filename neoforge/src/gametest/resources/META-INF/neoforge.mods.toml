@@ -1,0 +1,16 @@
+# Dev-only companion mod that holds the GameTests. Never shipped: neoforge/src/gametest is only on the
+# runGameTestServer classpath. Literal values only (processResources expansion covers main alone).
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "brisk_leaf_decay_gametest"
+version = "0.0.0"
+displayName = "Brisk Leaf Decay GameTests (dev only)"
+description = '''Holds the Brisk Leaf Decay GameTests. Development only; never shipped.'''
+[[dependencies.brisk_leaf_decay_gametest]]
+modId = "brisk_leaf_decay"
+type = "required"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
