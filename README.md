@@ -1,6 +1,6 @@
 # Brisk Leaf Decay
 
-> Chop a tree and its leaves fall within a fraction of a second, instead of hanging in the air for minutes.
+> Chop a tree and its leaves fall within about a second, instead of hanging in the air for minutes.
 
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](LICENSE)
 Homepage (intended CurseForge page, not yet published): https://www.curseforge.com/minecraft/mc-mods/brisk-leaf-decay

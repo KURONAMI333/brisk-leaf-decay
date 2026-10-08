@@ -14,16 +14,16 @@ public final class BriskLeafDecayCommon {
      * never fight over the same leaves (the user picked that mod on purpose).
      */
     static final List<String> EQUIVALENT_MODS = List.of(
-            "fastleafdecay",          // Fast Leaf Decay (Olafski, CurseForge)
-            "fldf",                   // Fast Leaf Decay (Modrinth "fld")
-            "rapid_leaf_decay",       // Rapid Leaf Decay
-            "quickleafdecay",         // Quick Leaf Decay
-            "leaves_us_in_peace",     // Leaves Us In Peace
-            "leavesbegone",           // Leaves Be Gone
+            "fastleafdecay",  // same-role mod id
+            "fldf",  // same-role mod id
+            "rapid_leaf_decay",  // same-role mod id
+            "quickleafdecay",  // same-role mod id
+            "leaves_us_in_peace",  // same-role mod id
+            "leavesbegone",  // same-role mod id
             "minimalism_leaf_decay",  // Minimalism Leaf Decay
             "instant-leaf-decay",     // Instant Leaf Decay
-            "fast-leaf-decay",        // Fast Leaf Decay (Fabric port) / Mildly Fast Leaf Decay
-            "mr_fast_leaf_decay"      // Fast Leaf Decay (datapack-as-mod build)
+            "fast-leaf-decay",  // same-role mod id
+            "mr_fast_leaf_decay"  // same-role mod id
     );
 
     /** Shortest wait, in ticks, between a leaf losing its tree and falling. */

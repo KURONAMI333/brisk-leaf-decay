@@ -112,7 +112,7 @@ public class LeafDecayGameTests {
     @GameTest(template = "empty7", timeoutTicks = 100, batch = OFF)
     public static void noDecayWhenRandomTicksAreOff(GameTestHelper helper) {
         if (expectInactive()) {
-            // The other mod's own rule applies then (Fast Leaf Decay, for one, still clears leaves at 0).
+            // (another mod may still clear leaves at 0; its own rule applies)
             helper.succeed();
             return;
         }

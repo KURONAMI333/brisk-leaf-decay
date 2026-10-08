@@ -11,4 +11,4 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) — [Semver](ht
 - Leaves cut off from their logs fall within about a second, with the same drops as natural decay
 
 ### Notes
-- Minecraft 1.21.1 NeoForge / Fabric、1.20.1 Forge / Fabric（同じ 0.1.0）
+- Minecraft 1.21.1 NeoForge / Fabric and 1.20.1 Forge / Fabric, all as 0.1.0
