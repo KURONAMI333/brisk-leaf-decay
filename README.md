@@ -10,9 +10,10 @@ Bugs and questions: comment on the CurseForge page, or DM @kuronami333 on X (htt
 
 ## Supported Loaders / Versions
 
-| Minecraft | NeoForge | Fabric |
-|---|:---:|:---:|
-| 1.21.1 | ✅ | ✅ |
+| Minecraft | NeoForge | Forge | Fabric |
+|---|:---:|:---:|:---:|
+| 1.21.1 | ✅ | — | ✅ |
+| 1.20.1 | — | ✅ | ✅ |
 
 No dependencies (Fabric API not needed). Server side is enough; it is harmless on clients.
 
@@ -24,12 +25,10 @@ No dependencies (Fabric API not needed). Server side is enough; it is harmless o
 - With the `randomTickSpeed` game rule at 0, leaves don't decay at all, just like vanilla.
 - Nothing to configure.
 
-If another fast-leaf-decay mod is installed (Fast Leaf Decay, Rapid Leaf Decay, Quick Leaf Decay, Leaves Be Gone, Leaves Us In Peace and similar), this mod stays inactive and leaves the job to that mod, so the two never fight.
-
 ## Installation
 
-1. Install NeoForge or Fabric Loader for Minecraft 1.21.1
-2. Drop the jar for your loader into `mods/`
+1. Install NeoForge (1.21.1), Forge (1.20.1) or Fabric Loader
+2. Drop the jar for your loader and Minecraft version into `mods/`
 
 ## License
 

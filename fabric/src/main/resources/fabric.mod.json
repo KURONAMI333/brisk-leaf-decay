@@ -9,6 +9,7 @@
     ],
     "contact": {
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/brisk-leaf-decay",
+        "issues": "https://www.curseforge.com/minecraft/mc-mods/brisk-leaf-decay/comments",
         "sources": "https://github.com/KURONAMI333/brisk-leaf-decay"
     },
     "license": "${license}",
