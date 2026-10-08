@@ -1,0 +1,1 @@
+Chop a tree and its leftover leaves fall within about a second instead of lingering for minutes.
